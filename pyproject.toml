@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "final_surge_api"
+version = "0.0.1"
+dependencies = [
+    "python-utilities @ git+https://github.com/jcocozza/python_utilities.git"
+]
+authors = [ {name = "Joseph Cocozza", email = "jcocozza47@gmail.com"} ]
+description="A package to interact with Final Surge"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+    ]
